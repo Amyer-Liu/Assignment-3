@@ -5,15 +5,10 @@
     <title>Assignment 3</title>
     <!-- Created by Amy Liu on 2025 Dec 3 -->
 
-    <!-- Google Font 1 - Indie Flower-->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Notch:wght@200..700&family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
-
-    <!-- Google Font 2 - Inconsolata -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Indie+Flower&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Notch:wght@200..700&family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Notch:wght@200..700&family=Stack+Sans+Text:wght@200..700&family=Inconsolata:wght@200..900&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
       body {
@@ -33,10 +28,8 @@
 
       .header-banner img {
         width: 100%;
-        height: 50%;
-        margin-left: 3em;
+        height: auto;
         background-color: white;
-        align-items: center;
       }
 
       /* ─────────────── NAVIGATION ─────────────── */
@@ -74,16 +67,16 @@
         gap: 2em;
         padding: 3em 0;
         background-color: #244196;
-        color: white;
         align-items: flex-start;
+        color: white;
       }
 
       .about-photo {
         width: 300px;
         height: auto;
-        margin-left: 6em;
-        margin-bottom: 0.6em;
+        border-radius: 10px;
         margin-top: 0.5em;
+        margin-bottom: 0.6em;
       }
 
       .about-text {
@@ -152,7 +145,6 @@
 
   <body>
 
-    <!-- ALL CONTENT IS INSIDE THIS 1200px WRAPPER -->
     <div class="content-wrapper">
 
       <!-- HEADER -->
@@ -175,8 +167,10 @@
       <!-- ABOUT -->
       <div class="about-section">
         <img src="Profile.jpg" alt="My profile picture" class="about-photo">
+
         <div class="about-text">
           <h2>About Me</h2>
+
           <p>As a junior designer, I believe meaningful digital experiences begin with understanding people. I’m passionate about creating intuitive, human-centered interfaces that make users feel supported and empowered.</p>
 
           <p> Having lived in three different countries, I’ve been shaped by diverse cultures and ways of communicating. This global perspective fuels my curiosity and empathy as a designer. I love exploring cultural behaviors and design traditions around the world, then weaving those insights into inclusive, thoughtful, and culturally aware digital experiences.</p>
@@ -185,35 +179,35 @@
           <p class="contact"><strong>Phone:</strong> 000-000-0000</p>
         </div>
       </div>
-    </div>
 
-    <!-- PROJECT SECTION -->
-    <div class="projects">
-      <h2>Project Overview</h2>
-      <div class="project-row">
+      <!-- PROJECT SECTION -->
+      <div class="projects">
+        <h2>Project Overview</h2>
 
-        <div class="project-card">
-          <div class="project-thumb"></div> <!-- Replace -->
-          <p class="project-name">Card Game Design</p>
+        <div class="project-row">
+
+          <div class="project-card">
+            <div class="project-thumb"></div>
+            <p class="project-name">Card Game Design</p>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb"></div>
+            <p class="project-name">Website Redesign</p>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb"></div>
+            <p class="project-name">Poster Design</p>
+          </div>
+
         </div>
-
-        <div class="project-card">
-          <div class="project-thumb"></div> <!-- Replace -->
-          <p class="project-name">Website Redesign</p>
-        </div>
-
-        <div class="project-card">
-          <div class="project-thumb"></div> <!-- Replace -->
-          <p class="project-name">Poster Design</p>
-        </div>
-
       </div>
-    </div>
 
-    <!-- FOOTER -->
-    <footer>
-      © 2025 Amy Liu. All Rights Reserved.
-    </footer>
+      <!-- FOOTER -->
+      <footer>
+        © 2025 Amy Liu. All Rights Reserved.
+      </footer>
 
     </div> <!-- END WRAPPER -->
 
